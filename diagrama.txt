@@ -1,0 +1,36 @@
+erDiagram
+    clientes {
+        int id PK
+        string nome
+        string email
+        string telefone
+        string endereco
+    }
+
+    vendas {
+        int id PK
+        int cliente_id FK
+        date data
+        decimal total
+    }
+
+    item_vendas {
+        int id PK
+        int venda_id FK
+        int produto_id FK
+        int quantidade
+        decimal preco_unitario
+    }
+
+    produtos {
+        int id PK
+        string nome
+        string tipo
+        decimal preco
+        string descricao
+        string imagem
+    }
+
+    clientes ||--o{ vendas : "realiza"
+    vendas ||--o{ item_vendas : "contém"
+    produtos ||--o{ item_vendas : "é vendido em"
