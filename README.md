@@ -27,7 +27,7 @@ O sistema é dividido em três módulos principais e um dashboard inicial:
 - **Cálculo de Total em Tempo Real:** O valor total da venda é calculado e exibido instantaneamente na tela conforme os produtos e quantidades são alterados.
 - **Geração de Nota Fiscal:** Ao salvar a venda, o sistema gera e exibe uma nota fiscal/recibo na tela com todos os detalhes da transação (funcionário, data, itens, preços e total), pronta para impressão.
 
-## 🛠️ Tecnologias Utilizadas
+## 💻 Tecnologias Utilizadas
 
 - **Backend:**
   - **PHP 8+**
