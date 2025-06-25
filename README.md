@@ -1,7 +1,5 @@
 # 🌾 Sistema de Gestão "AgroShopping"
 
-![Tela principal do sistema AgroShopping](./capa.png)
-
 Uma aplicação web completa desenvolvida com o framework Laravel para a gestão de uma loja de produtos agropecuários. O sistema permite o controle de funcionários, catálogo de produtos com imagens categorizados ou não por nicho, e um ponto de venda para registrar transações de forma eficiente.
 
 ## 🚀 Funcionalidades Principais
@@ -80,6 +78,8 @@ Para executar este projeto localmente, siga os passos abaixo:
 
 8.  **Acesse a aplicação no seu navegador:** `http://localhost:8000`
 
-## ✒️ Autor
+## 📌 Autor
 
 Desenvolvido por **Jamilly**.
+
+![Tela principal do sistema AgroShopping](./capa.png)
